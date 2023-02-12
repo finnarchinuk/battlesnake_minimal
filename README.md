@@ -14,3 +14,7 @@ Features:<br>
 - Visualization of games<br>
 - Can start from an arbitrary game state (may be interesting in testing how different snakes make decisions for a given board state)<br>
 - A simplesnake class to build from and battle against. Only needs a name and <code>move()</code>.
+
+
+***
+Added an implementation of monte carlo tree search for a new environment (connect4) to better understand the process. The MCTS part is from https://github.com/pbsinclair42/MCTS. 
